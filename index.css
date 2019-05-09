@@ -1,0 +1,144 @@
+body {
+    background-color: #FFFDFC;
+    
+}
+
+main {
+    height: 80vh;
+    width: 100vw;
+    background-color: #FFFDFC;
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    margin:10px 0 10px 50px;
+}
+
+label {
+    color: #404040;
+    float: left;
+    font-size: 30px;
+    line-height: 4vh;
+    padding-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 25vw;
+    height: 4vh;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    width: 33vw;
+    height: 7vh;
+    background-color: #404040;
+    color: #FFFDFC;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    align-self: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: #424249;
+    color: #FFFDFC;
+    border: 2px solid white;
+
+
+
+}
+
+.main-header h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    margin: 0 50vw 0 2vw;
+    
+}
+
+.main-header h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFDFC;
+
+}
+
+.expenses {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 40vw;
+    background-color: #EFE8E1;
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.list-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.bills {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vw;
+    background-color: #54D2E5; 
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+    margin-top: 100px;
+
+
+}
+
+.expense-name {
+    font-family: 'Roboto', sans-serif;
+    color: #424249;
+
+}
+
+.expense-amount {
+    font-family: 'Roboto', sans-serif;
+    color: #424249;
+}
+
+#can-one {
+    display: flex;
+    flex-direction: column;
+}
